@@ -1,0 +1,14 @@
+name: AnviLore
+version: 1.0
+author: Xiione
+main: io.github.xiione.AnviLore
+
+commands:
+  anvilore:
+    description: Main command
+
+permissions:
+  anvilore.admin:
+    default: op
+  anvilore.notifyupdate:
+    default: op
