@@ -1,0 +1,53 @@
+
+apply_vanilla_repairs: false
+
+use-whitelist-item: false
+
+whitelist-item:
+  - DIAMOND_PICKAXE
+  - DIAMOND_SWORD
+
+blacklist-item:
+  - []
+
+use-whitelist-lore-item: true
+
+whitelist-lore-item:
+  - NAME_TAG
+
+blacklist-lore-item:
+  - []
+
+read-from-displayname: true
+
+erase-old-lore: false
+
+color-code-prefix: "&"
+
+##Color Code Level Costs##
+
+level-cost-1: 1
+level-cost-2: 1
+level-cost-3: 1
+level-cost-4: 1
+level-cost-5: 1
+level-cost-6: 1
+level-cost-7: 1
+level-cost-8: 1
+level-cost-9: 1
+level-cost-0: 1
+level-cost-a: 1
+level-cost-b: 1
+level-cost-c: 1
+level-cost-d: 1
+level-cost-e: 1
+level-cost-f: 1
+
+##Format Code Level Costs##
+
+level-cost-k: 1
+level-cost-l: 1
+level-cost-m: 1
+level-cost-n: 1
+level-cost-o: 1
+level-cost-r: 1

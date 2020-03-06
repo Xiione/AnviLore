@@ -4,47 +4,30 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.github.xiione</groupId>
-    <artifactId>AnviLore</artifactId>
-    <version>1.0</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <groupId>io.github.xiione</groupId>
+    <artifactId>AnviLore-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>parent</version>
+
+    <modules>
+        <module>plugin</module>
+        <module>api</module>
+        <module>v1_14_R1</module>
+        <module>v1_15_R1</module>
+    </modules>
 
     <repositories>
         <repository>
             <id>nms-repo</id>
             <url>https://repo.codemc.org/repository/nms/</url>
         </repository>
-        <repository>
-            <id>codemc-repo</id>
-            <url>https://repo.codemc.org/repository/maven-public/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-        </repository>
     </repositories>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.14.4-R0.1-SNAPSHOT</version>
-            <type>jar</type>
-            <scope>provided</scope>
-            <optional>true</optional>
-        </dependency>
-    </dependencies>
 
 </project>
